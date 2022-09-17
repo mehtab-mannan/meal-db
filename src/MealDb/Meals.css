@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+}
+
+.search{
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.meal{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.meal img{
+    width: 200px;
+}
+.meals-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
